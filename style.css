@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    text-align: center;
+    position: center;
+    background-color: #2c5d2e;
+}
+
+.profpic {
+    border-radius: 50%;
+    width:150px;
+    margin-top: 5%;
+}
+
+.profileName {
+    margin-bottom: 2%;
+}
+
+.containerStyle {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+    color: white;
+}
+
+.containerStyle h1 {
+    font-size:285%;
+    color: white;
+}
+.containerStyle h2 {
+    font-weight: bold;
+    font-size: 150%;
+}
+.containerStyle p {
+    font-size:90%;
+}
+
+
+.containerStyle div button h3 {
+    font-size:120%;
+    padding-bottom:5px;
+    font-weight: bold;
+}
+.containerStyle div button p {
+    font-size:90%;
+}
+.containerStyle button {
+    width: 100%;
+}
+div {
+    margin-top: 2%;
+}
+div:last-child {
+    padding-bottom:5%;
+}
+button {
+    padding: 2.5% 1% 2.5% 1%;
+    transition-duration: 0.4s;
+}
+.buttonStyle {
+    background-color: #449f49;
+    color: #d4f8d5;
+    border-radius: 30px;
+    border: none;
+}
+.buttonStyle:hover {
+    background-color: #3F8143;
+    color: #E8F7E8;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, p {
+    font-family: 'Raleway';
+}
+
+@media (max-width: 768px) {
+    .containerStyle {
+        width: 80%;
+    }
+    .containerStyle h1 {
+        font-size: 275%;
+    }
+    .containerStyle h2 {
+        font-weight: bold;
+        font-size: 130%;
+    }
+    .containerStyle p {
+        font-size:85%;
+    }
+    .buttonStyle {
+        margin-bottom: 1%;
+        font-size:80%;
+    }
+    .pembatasStyle {
+        margin-bottom: 3%;
+    }
+    .pembatasStyle .iconPembatas {
+        margin: 1% 1%;
+    }
+}
+
+/* KHUSUS UTK Memposisikan DELIMITER ICON-nya */
+@media (max-width: 1080px) {
+    .pembatasStyle .iconPembatas {
+        margin: 0.5% 1%;
+    }
+}
+@media (max-width: 590px) {
+    .pembatasStyle .iconPembatas {
+        margin: 0.2% 1%;
+    }
+}
+@media (max-width: 470px) {
+    .pembatasStyle .iconPembatas {
+        margin: -0.2% 1%;
+    }
+}
+/* - - - Delimitter Border - - - */
+
+.pembatasStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.iconPembatas {
+    margin: 0.9% 1%;
+}
+
+/* Dashed border */
+div.dashed {
+    border-top: 3px dashed #F2EBEB;
+    width: 20%;
+}
+
+/* Dotted border */
+hr.dotted {
+    border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
