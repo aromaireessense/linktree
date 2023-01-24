@@ -2,6 +2,12 @@ const buttonH3 = document.querySelectorAll("button h3");
 const capsH1 = document.querySelectorAll("div h1");
 const capsH2 = document.querySelectorAll("div h2");
 
+/* Ngecek link href masing2 tag */
+const url = document.querySelectorAll(".buttonStyle");
+for(let link of url) {
+    console.log(link);
+}
+
 /* Node List of Buttons tag with h3 tag in it */
 console.log(buttonH3);
 
