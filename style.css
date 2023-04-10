@@ -74,6 +74,21 @@ button {
     cursor: pointer;
 }
 
+/* Pada Event Idul Fitri */
+.buttonStyleIdulFitri {
+    background-color:#667f68;
+    color:#Dde8df;
+    border-radius: 30px;
+    border: none;
+}
+.buttonStyleIdulFitri:hover {
+    background-color: #5E645F;
+    color: #C6d1c8;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
 h1, h2, h3, p {
     font-family: 'Raleway';
 }
