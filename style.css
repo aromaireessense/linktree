@@ -89,6 +89,21 @@ button {
     cursor: pointer;
 }
 
+/* Pada Event Flashsale */
+.buttonStyleFlashsale {
+    background-color:#fafa18;
+    color:#000000;
+    border-radius: 30px;
+    border: none;
+}
+.buttonStyleFlashsale:hover {
+    background-color: #ebeb9a;
+    color: #4e514f;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
 h1, h2, h3, p {
     font-family: 'Raleway';
 }
