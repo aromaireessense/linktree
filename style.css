@@ -7,6 +7,10 @@ body {
     text-align: center;
     position: center;
     background-color: #2c5d2e;
+
+    /*Font Family*/
+    font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 .profpic {
@@ -84,6 +88,21 @@ button {
 .buttonStyleIdulFitri:hover {
     background-color: #5E645F;
     color: #C6d1c8;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pada Event Natal */
+.buttonStyleNatal {
+    background-color:#cc6600;
+    color:#ffffff;
+    border-radius: 30px;
+    border: none;
+}
+.buttonStyleNatal:hover {
+    background-color: #ff9933;
+    color: #ffffff;
     border-radius: 30px;
     border: none;
     cursor: pointer;
